@@ -1,0 +1,26 @@
+{
+  "precision": 0.3333,
+  "recall": 0.561,
+  "f1_score": 0.4182,
+  "confusion_matrix": [
+    [
+      240,
+      46
+    ],
+    [
+      18,
+      23
+    ]
+  ],
+  "tn": 240,
+  "fp": 46,
+  "fn": 18,
+  "tp": 23,
+  "threshold_mse": 0.125136,
+  "model_type": "MLPRegressor Autoencoder demo",
+  "window_size": 24,
+  "mse_mean": 0.108695,
+  "mse_max": 0.642016,
+  "threshold_policy": "Threshold MSE lấy từ reconstruction error trên train windows.",
+  "note": "MSE cao nghĩa là model tái tạo window kém, có khả năng bất thường."
+}

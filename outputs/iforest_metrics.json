@@ -1,0 +1,29 @@
+{
+  "precision": 0.5541,
+  "recall": 1.0,
+  "f1_score": 0.713,
+  "confusion_matrix": [
+    [
+      276,
+      33
+    ],
+    [
+      0,
+      41
+    ]
+  ],
+  "tn": 276,
+  "fp": 33,
+  "fn": 0,
+  "tp": 41,
+  "threshold": 0.4469,
+  "score_min_train": 0.407607,
+  "score_max_train": 0.725715,
+  "train_rows": 650,
+  "train_normal_rows": 562,
+  "test_rows": 350,
+  "model_type": "IsolationForest",
+  "model_version": "iforest_v2",
+  "threshold_policy": "Threshold lấy từ phân bố anomaly_score của train_normal, không lấy từ test.",
+  "note": "Precision/Recall/F1 chỉ có ý nghĩa khi label anomaly có sẵn."
+}
